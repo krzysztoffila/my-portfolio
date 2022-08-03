@@ -1,7 +1,6 @@
 {
   "name": "taskrunner",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "init-project": "npm install && npm-run-all init:*",
@@ -38,5 +37,6 @@
     "sass": "^1.44.0",
     "stylelint": "^14.9.1",
     "stylelint-scss": "^4.3.0"
-  }
+  },
+  "description": ""
 }
