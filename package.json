@@ -20,8 +20,8 @@
     "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\" \"js/*.js\"",
     "watch:sassprefixer": "onchange sass/*.scss -- npm run build-dev"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["taskrunner", "task-runner", "task-tape"],
+  "author": "Krzysztof Fila",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.2.4",
