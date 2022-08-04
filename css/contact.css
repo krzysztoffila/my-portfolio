@@ -1,0 +1,19 @@
+body {
+background-color: rgb(57, 169, 219);
+font-family: Rubik, Arial;
+}
+
+form {
+text-align: center;
+line-height: 30px;
+height: 80%;
+overflow: auto;
+}
+
+form hr {
+width: 15%;
+}
+
+h1 {
+text-align: center;
+}
