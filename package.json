@@ -20,7 +20,11 @@
     "watch:browsersync": "browser-sync start --server --files \"css/*.css\" \"*.html\" \"js/*.js\"",
     "watch:sassprefixer": "onchange sass/*.scss -- npm run build-dev"
   },
-  "keywords": ["taskrunner", "task-runner", "task-tape"],
+  "keywords": [
+    "taskrunner",
+    "task-runner",
+    "task-tape"
+  ],
   "author": "Krzysztof Fila",
   "license": "ISC",
   "devDependencies": {
@@ -28,15 +32,18 @@
     "browser-sync": "^2.26.3",
     "eslint": "^8.20.0",
     "eslint-plugin-react": "^7.30.1",
-    "html-validate": "^2.8.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^9.0.1",
+    "html-validate": "^7.2.0",
     "mkdirp": "^0.5.1",
     "npm-run-all": "^4.1.5",
-    "onchange": "^5.2.0",
+    "onchange": "^7.1.0",
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
     "sass": "^1.44.0",
     "stylelint": "^14.9.1",
-    "stylelint-scss": "^4.3.0"
+    "stylelint-scss": "^4.3.0",
+    "tailwindcss": "^3.1.8"
   },
   "description": ""
 }
